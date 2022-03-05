@@ -22,7 +22,7 @@ const start = async () => {
     try {
         await connectDB(process.env.MONGO_URI)
         app.listen(port, () => {
-            console.log(`Example app listening on port ${port}`)
+            console.log(`Example app listening o port ${port}`)
         })
     }
     catch (err) {
